@@ -113,8 +113,8 @@ Wazuh Console answers one question quickly: **"What is this host actually doing,
 
 ```bash
 # Get the script
-git clone https://github.com/<your-user>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/0xNay33m/wazuh-console.git
+cd wazuh-console
 
 # Linux: interactive menu
 sudo python3 wazuh-console.py
@@ -552,12 +552,6 @@ Issues and pull requests are welcome. If you add a new capability:
 4. Test against a copy using `--root` rather than a production install.
 
 Please include your OS, Wazuh version, and the (redacted) output of `--detect` and `--audit` when reporting bugs.
-
----
-
-## License
-
-Add your license here (for example, MIT or Apache-2.0) and include a `LICENSE` file in the repository.
 
 ---
 
